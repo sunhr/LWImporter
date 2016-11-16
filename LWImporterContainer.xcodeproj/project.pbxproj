@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360588B51DCC5F99004A35FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 360588B41DCC5F99004A35FD /* AppDelegate.m */; };
+		360588B81DCC5F99004A35FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 360588B71DCC5F99004A35FD /* main.m */; };
+		360588BA1DCC5F99004A35FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360588B91DCC5F99004A35FD /* Assets.xcassets */; };
+		360588BD1DCC5F99004A35FD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360588BB1DCC5F99004A35FD /* MainMenu.xib */; };
+		360588CB1DCC5FB2004A35FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360588CA1DCC5FB2004A35FD /* Cocoa.framework */; };
+		360588D11DCC5FB2004A35FD /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 360588D01DCC5FB2004A35FD /* SourceEditorExtension.m */; };
+		360588D41DCC5FB2004A35FD /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 360588D31DCC5FB2004A35FD /* SourceEditorCommand.m */; };
+		360588D81DCC5FB2004A35FD /* LWImporter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 360588C81DCC5FB2004A35FD /* LWImporter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360588D61DCC5FB2004A35FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360588A81DCC5F99004A35FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360588C71DCC5FB2004A35FD;
+			remoteInfo = LWImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		360588DC1DCC5FB2004A35FD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				360588D81DCC5FB2004A35FD /* LWImporter.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		360588B01DCC5F99004A35FD /* LWImporterContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWImporterContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		360588B31DCC5F99004A35FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		360588B41DCC5F99004A35FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		360588B71DCC5F99004A35FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		360588B91DCC5F99004A35FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		360588BC1DCC5F99004A35FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		360588BE1DCC5F99004A35FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360588C81DCC5FB2004A35FD /* LWImporter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LWImporter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		360588CA1DCC5FB2004A35FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		360588CE1DCC5FB2004A35FD /* LWImporter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LWImporter.entitlements; sourceTree = "<group>"; };
+		360588CF1DCC5FB2004A35FD /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		360588D01DCC5FB2004A35FD /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		360588D21DCC5FB2004A35FD /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		360588D31DCC5FB2004A35FD /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		360588D51DCC5FB2004A35FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360588AD1DCC5F99004A35FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360588C51DCC5FB2004A35FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360588CB1DCC5FB2004A35FD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360588A71DCC5F99004A35FD = {
+			isa = PBXGroup;
+			children = (
+				360588B21DCC5F99004A35FD /* LWImporterContainer */,
+				360588CC1DCC5FB2004A35FD /* LWImporter */,
+				360588C91DCC5FB2004A35FD /* Frameworks */,
+				360588B11DCC5F99004A35FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360588B11DCC5F99004A35FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360588B01DCC5F99004A35FD /* LWImporterContainer.app */,
+				360588C81DCC5FB2004A35FD /* LWImporter.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360588B21DCC5F99004A35FD /* LWImporterContainer */ = {
+			isa = PBXGroup;
+			children = (
+				360588B31DCC5F99004A35FD /* AppDelegate.h */,
+				360588B41DCC5F99004A35FD /* AppDelegate.m */,
+				360588B91DCC5F99004A35FD /* Assets.xcassets */,
+				360588BB1DCC5F99004A35FD /* MainMenu.xib */,
+				360588BE1DCC5F99004A35FD /* Info.plist */,
+				360588B61DCC5F99004A35FD /* Supporting Files */,
+			);
+			path = LWImporterContainer;
+			sourceTree = "<group>";
+		};
+		360588B61DCC5F99004A35FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360588B71DCC5F99004A35FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		360588C91DCC5FB2004A35FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				360588CA1DCC5FB2004A35FD /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		360588CC1DCC5FB2004A35FD /* LWImporter */ = {
+			isa = PBXGroup;
+			children = (
+				360588CF1DCC5FB2004A35FD /* SourceEditorExtension.h */,
+				360588D01DCC5FB2004A35FD /* SourceEditorExtension.m */,
+				360588D21DCC5FB2004A35FD /* SourceEditorCommand.h */,
+				360588D31DCC5FB2004A35FD /* SourceEditorCommand.m */,
+				360588D51DCC5FB2004A35FD /* Info.plist */,
+				360588CD1DCC5FB2004A35FD /* Supporting Files */,
+			);
+			path = LWImporter;
+			sourceTree = "<group>";
+		};
+		360588CD1DCC5FB2004A35FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360588CE1DCC5FB2004A35FD /* LWImporter.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360588AF1DCC5F99004A35FD /* LWImporterContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360588C11DCC5F99004A35FD /* Build configuration list for PBXNativeTarget "LWImporterContainer" */;
+			buildPhases = (
+				360588AC1DCC5F99004A35FD /* Sources */,
+				360588AD1DCC5F99004A35FD /* Frameworks */,
+				360588AE1DCC5F99004A35FD /* Resources */,
+				360588DC1DCC5FB2004A35FD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360588D71DCC5FB2004A35FD /* PBXTargetDependency */,
+			);
+			name = LWImporterContainer;
+			productName = LWImporterContainer;
+			productReference = 360588B01DCC5F99004A35FD /* LWImporterContainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		360588C71DCC5FB2004A35FD /* LWImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360588D91DCC5FB2004A35FD /* Build configuration list for PBXNativeTarget "LWImporter" */;
+			buildPhases = (
+				360588C41DCC5FB2004A35FD /* Sources */,
+				360588C51DCC5FB2004A35FD /* Frameworks */,
+				360588C61DCC5FB2004A35FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWImporter;
+			productName = LWImporter;
+			productReference = 360588C81DCC5FB2004A35FD /* LWImporter.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360588A81DCC5F99004A35FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Uncle Wang Tech";
+				TargetAttributes = {
+					360588AF1DCC5F99004A35FD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7A3B8A26WB;
+						ProvisioningStyle = Automatic;
+					};
+					360588C71DCC5FB2004A35FD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7A3B8A26WB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 360588AB1DCC5F99004A35FD /* Build configuration list for PBXProject "LWImporterContainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360588A71DCC5F99004A35FD;
+			productRefGroup = 360588B11DCC5F99004A35FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360588AF1DCC5F99004A35FD /* LWImporterContainer */,
+				360588C71DCC5FB2004A35FD /* LWImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360588AE1DCC5F99004A35FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360588BA1DCC5F99004A35FD /* Assets.xcassets in Resources */,
+				360588BD1DCC5F99004A35FD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360588C61DCC5FB2004A35FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360588AC1DCC5F99004A35FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360588B81DCC5F99004A35FD /* main.m in Sources */,
+				360588B51DCC5F99004A35FD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360588C41DCC5FB2004A35FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360588D11DCC5FB2004A35FD /* SourceEditorExtension.m in Sources */,
+				360588D41DCC5FB2004A35FD /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360588D71DCC5FB2004A35FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360588C71DCC5FB2004A35FD /* LWImporter */;
+			targetProxy = 360588D61DCC5FB2004A35FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		360588BB1DCC5F99004A35FD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360588BC1DCC5F99004A35FD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		360588BF1DCC5F99004A35FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		360588C01DCC5F99004A35FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		360588C21DCC5F99004A35FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
+				INFOPLIST_FILE = LWImporterContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laowang.LWImporterContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		360588C31DCC5F99004A35FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
+				INFOPLIST_FILE = LWImporterContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laowang.LWImporterContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		360588DA1DCC5FB2004A35FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LWImporter/LWImporter.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
+				INFOPLIST_FILE = LWImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laowang.LWImporterContainer.LWImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		360588DB1DCC5FB2004A35FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LWImporter/LWImporter.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
+				INFOPLIST_FILE = LWImporter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laowang.LWImporterContainer.LWImporter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360588AB1DCC5F99004A35FD /* Build configuration list for PBXProject "LWImporterContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360588BF1DCC5F99004A35FD /* Debug */,
+				360588C01DCC5F99004A35FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360588C11DCC5F99004A35FD /* Build configuration list for PBXNativeTarget "LWImporterContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360588C21DCC5F99004A35FD /* Debug */,
+				360588C31DCC5F99004A35FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360588D91DCC5FB2004A35FD /* Build configuration list for PBXNativeTarget "LWImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360588DA1DCC5FB2004A35FD /* Debug */,
+				360588DB1DCC5FB2004A35FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360588A81DCC5F99004A35FD /* Project object */;
+}
