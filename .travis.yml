@@ -10,7 +10,7 @@ before_install:
     - xcodebuild -showsdks
 
 script:
-    - xcodebuild clean build -project LWImporterContainer.xcodeproj -scheme 'LWImporter' -configuration Debug | xcpretty -c
+    - xcodebuild clean build -project LWImporterContainer.xcodeproj -scheme 'LWImporter' -configuration TravisCI | xcpretty -c
 
 after_success:
     - echo Success
