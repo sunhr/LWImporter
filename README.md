@@ -3,3 +3,6 @@
 
 
 Xcode Extension for Importing Header while Writing Objective-C Code
+
+# Function
+![image](https://raw.githubusercontent.com/sunhr/LWImporter/master/res/function.gif)
