@@ -9,9 +9,9 @@ Xcode Extension for Importing Header while Writing Objective-C Code
 
 
 # Building
-0. Setup Code Signing for Target `LWImporterContainer` and `LWImporter` by apply your own Team
+0. Setup Code Signing for Target `LWImporterContainer` and `LWImporter` by applying your own Team
 1. Build Target `LWImporter`
-2. Copy all `app` and `appex` to your `Application` folder
+2. Copy all `app` and `appex` products to your `Application` folder
 3. Open `LWImporterContainer.app` then close it
 4. Open `Preference - Extension` of macOS, make sure `LWImporter` is selected as Xcode Source Editor
 5. Restart Xcode and enjoy it, add a shortcut if you like
